@@ -19,6 +19,7 @@ A desktop task management application built with Python and [Flet](https://flet.
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Testing](#testing)
+- [SonarQube Analysis](#sonarqube)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
@@ -219,6 +220,28 @@ pytest --maxfail=1 --disable-warnings -v
 - **Task Creation**: Validates builder outputs (name, description, priority, due date).
 - **Task Operations**: Adding, marking done/undone, duplicate prevention.
 - **Sorting Strategies**: Ensures correct ordering under each strategy.
+
+---
+
+## SonarQube
+SonarQube is used for static code analysis and quality checks. To run SonarQube analysis. It is dockerized, so to run it, do:
+```bash
+docker-compose up
+```
+Then, open your browser and go to `http://localhost:9000`.
+
+### Last analysis:
+
+| **Metric**            | **Value** | **Description**                                                          |
+|-----------------------|-----------|--------------------------------------------------------------------------|
+| **Security**          | A         | No issues above info severity impacting the security of the software.    |
+| **Reliability**       | A         | No issues above info severity impacting the reliability of the software. |
+| **Maintainability**   | A         | Low technical debt relative to the size of the codebase.                 |
+| **Accepted Issues**   | 0         | No valid issues that were not fixed.                                     |
+| **Coverage**          | 87.5%     | 144 lines to cover.                                                      |
+| **Duplications**      | 0.0%      | No duplicated code across 718 lines.                                     |
+| **Security Hotspots** | 0         | All Security Hotspots reviewed, achieving an A rating.                   |
+
 
 ---
 
