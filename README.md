@@ -1,6 +1,11 @@
-# Smart Task Planner
+<h1 align="center">Smanner</h1>
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flet)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-20232A?style=for-the-badge&logo=python&logoColor=blue" alt="Python">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Flet-0.27.6-4E3269?style=for-the-badge&logo=flet&logoColor=white" alt="Flet — multi-platform Python UI framework" />
+</p>
 
 A desktop task management application built with Python and [Flet](https://flet.dev/) that allows users to create, organize, and manage tasks with flexible sorting strategies.
 
@@ -50,7 +55,7 @@ Whether you need to prioritize urgent tasks, focus on due dates, or simply see y
 
 ### Prerequisites
 
-- **Python** 3.8 or higher
+- **Python** 3.12
 - **pip** (Python package installer)
 
 ### Setup
