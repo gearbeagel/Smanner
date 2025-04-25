@@ -176,19 +176,19 @@ classDiagram
 
     class Strategy {
         <<abstract>>
-        + __call__(tasks: List~Task~): List~Task~
+        + __ call __(tasks: List~Task~): List~Task~
     }
 
     class LastCreatedStrategy {
-        + __call__(tasks: List~Task~): List~Task~
+        + __ call __(tasks: List~Task~): List~Task~
     }
 
     class PriorityFirstStrategy {
-        + __call__(tasks: List~Task~): List~Task~
+        + __ call __(tasks: List~Task~): List~Task~
     }
 
     class EarliestDueStrategy {
-        + __call__(tasks: List~Task~): List~Task~
+        + __ call __(tasks: List~Task~): List~Task~
     }
 
     TaskPlannerFacade --> Strategy
