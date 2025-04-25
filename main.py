@@ -113,7 +113,8 @@ def main(page: ft.Page):
             rows.append(
                 ft.DataRow(
                     cells=[
-                        ft.DataCell(ft.Checkbox(value=task.status, on_change=lambda e, t=task: change_status(t))),
+                        ft.DataCell(ft.Checkbox(value=task.status, on_change=lambda e,
+                                                t=task: change_status(t, t.status))),
                         ft.DataCell(ft.Text(str(task.priority))),
                         ft.DataCell(ft.Text(task.name)),
                         ft.DataCell(ft.Text(task.due_date.strftime("%H:%M, %Y-%m-%d"))),
