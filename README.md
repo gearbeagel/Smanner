@@ -152,16 +152,17 @@ pip install flet pytest
 
 1. **Fork** this repository.
 2. **Create a branch** for your feature or bug fix:
-   ```bash
+```bash
 git checkout -b feature/your-feature-name
 ``` 
 3. **Commit** your changes:
-   ```bash
+```bash
 git commit -m "feat: add new sorting strategy"
 ```  
 4. **Push** to your branch:
-   ```bash
-git push origin feature/your-feature-name```
+```bash
+git push origin feature/your-feature-name
+```
 5. **Open a Pull Request** and describe your changes.
 
 ---
