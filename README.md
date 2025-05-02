@@ -118,7 +118,6 @@ smart-task-planner/
 │       └── priority_first.py    # Priority-first strategy
 ├── tests/
 │   └── test_tasks.py            # Pytest unit tests
-├── screenshots/                  # UI screenshots for README
 ├── main.py                       # Entry point (Flet app)
 ├── requirements.txt              # Dependency list
 └── README.md                     # Project documentation
@@ -213,7 +212,7 @@ Automated tests are written with [pytest](https://docs.pytest.org/).
 
 Run all tests:
 ```bash
-pytest --maxfail=1 --disable-warnings -v
+pytest 
 ```
 
 ### Coverage
@@ -254,26 +253,6 @@ Install via:
 ```bash
 pip install flet pytest
 ```
-
----
-
-## Contributing
-
-1. **Fork** this repository.
-2. **Create a branch** for your feature or bug fix:
-```bash
-git checkout -b feature/your-feature-name
-``` 
-3. **Commit** your changes:
-```bash
-git commit -m "feat: add new sorting strategy"
-```  
-4. **Push** to your branch:
-```bash
-git push origin feature/your-feature-name
-```
-5. **Open a Pull Request** and describe your changes.
-
 ---
 
 ## License
@@ -281,13 +260,4 @@ git push origin feature/your-feature-name
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-## Acknowledgements
-
-- Inspired by the Builder, Facade, and Strategy design patterns from the _Gang of Four_.
-- UI powered by the amazing [Flet](https://flet.dev/) library.
-
----
-
-*Happy task planning!*
 
