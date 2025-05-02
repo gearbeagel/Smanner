@@ -21,9 +21,6 @@ A desktop task management application built with Python and [Flet](https://flet.
 - [Testing](#testing)
 - [SonarQube Analysis](#sonarqube)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
